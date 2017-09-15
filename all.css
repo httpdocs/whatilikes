@@ -1,6 +1,6 @@
 @font-face {
-    font-family: ps2p!important;
-    src: url('font/PressStart2P.ttf')!important;
+    font-family: PressStart2P;
+    src: url('font/PressStart2P.ttf');
 }
 
 body {
@@ -17,15 +17,46 @@ body {
     z-index: -120!important;
 }
 
-h1,h2,h3,h4,h5,h6,a,p{
-    font-family: ps2p!important;
+h1,h2,h3,h4,h5,h6,a,label,span,p{
+    font-family: PressStart2P!important;
+    font-size: 1rem!important;
     color: #00ff00!important;
 }
 
+#top label,#top span{
+    letter-spacing:-0.16rem;
+    font-size: 1.5rem;
+}
+
+#top span{
+    color: #fbfaff!important;
+}
+
 #content li,#content li:hover{
+    text-align: center;
     list-style: none!important;
 }
 
 a:hover,a:focus{
     text-decoration: none!important;
 }
+
+.box{
+    position: relative;
+    left: 18rem;
+    width:15rem;
+    height:1.2rem;
+}
+
+.lineHead {
+    font-family: PressStart2P!important;
+    font-size: 0.7rem!important;
+    color: #00ff00!important;
+}
+
+.lineContent{
+    font-family: PressStart2P!important;
+    font-size: 0.45rem!important;
+    color: #707070 !important;
+}
+
