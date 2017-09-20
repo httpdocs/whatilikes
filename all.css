@@ -1,0 +1,69 @@
+@font-face {
+    font-family: PressStart2P;
+    src: url('font/PressStart2P.ttf');
+}
+
+body {
+    margin:0px!important;
+    padding:0px!important;
+    background-color: #88ea61!important;
+}
+
+#topbg{
+    width: 100%!important;
+    position: fixed!important;
+    top: 0px!important;
+    height: 100%!important;
+    z-index: -120!important;
+}
+
+h1,h2,h3,h4,h5,h6,a,label,span,p{
+    font-family: PressStart2P!important;
+    color: #00ff00!important;
+}
+
+#top label,#top span{
+    letter-spacing:-0.16rem;
+    font-size: 4.5rem!important;
+}
+
+#top span{
+    color: #fbfaff!important;
+}
+
+#content{
+    width:60%;
+    margin:auto auto;
+}
+
+#content li,#content li:hover{
+    text-align: center;
+    list-style: none!important;
+}
+
+a:hover,a:focus{
+    text-decoration: none!important;
+}
+
+.box{
+    float: left;
+    width:100%;
+    height:6rem;
+}
+
+.lineHead {
+    font-family: PressStart2P!important;
+    color: #00ff00!important;
+}
+
+.lineHead a{
+    font-family: PressStart2P!important;
+    font-size: 3rem!important;
+    color: #00ff00!important;
+}
+
+.lineContent{
+    font-family: PressStart2P!important;
+    font-size: 2rem!important;
+    color: #ccc !important;
+}
