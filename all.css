@@ -19,17 +19,21 @@ body {
 
 h1,h2,h3,h4,h5,h6,a,label,span,p{
     font-family: PressStart2P!important;
-    font-size: 1rem!important;
     color: #00ff00!important;
 }
 
 #top label,#top span{
     letter-spacing:-0.16rem;
-    font-size: 1.5rem;
+    font-size: 4.5rem!important;
 }
 
 #top span{
     color: #fbfaff!important;
+}
+
+#content{
+    width:60%;
+    margin:auto auto;
 }
 
 #content li,#content li:hover{
@@ -42,21 +46,24 @@ a:hover,a:focus{
 }
 
 .box{
-    position: relative;
-    left: 18rem;
-    width:15rem;
-    height:1.2rem;
+    float: left;
+    width:100%;
+    height:6rem;
 }
 
 .lineHead {
     font-family: PressStart2P!important;
-    font-size: 0.7rem!important;
+    color: #00ff00!important;
+}
+
+.lineHead a{
+    font-family: PressStart2P!important;
+    font-size: 3rem!important;
     color: #00ff00!important;
 }
 
 .lineContent{
     font-family: PressStart2P!important;
-    font-size: 0.45rem!important;
-    color: #707070 !important;
+    font-size: 2rem!important;
+    color: #ccc !important;
 }
-
